@@ -7,7 +7,7 @@ from os import getcwd
 # Test Automation Part of the Script
  
 # Your target website 
-target_url = 'http://localhost:5000'
+target_url = 'http://localhost:5050'
  
 # You configure a proxy so all your requests can go through zap so it can see all your requests and responses.
 proxies = {
