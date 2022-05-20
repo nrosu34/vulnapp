@@ -20,7 +20,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests python-owasp-zap-v2.4
       - name: Build Image
-        run: docker build -t vulnerable-app .
+        run: docker build -t vulnapp .
       - name: Run Docker Container
         run: docker run -d -p 5050:5050 vulnapp
       - name: Install OWASP ZAP
